@@ -6,10 +6,18 @@
   "scripts": {
     "start": "nodemon src/index"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "graph": "^0.2.0",
+    "graphql-tag": "^2.12.6"
+  },
   "devDependencies": {
     "dotenv": "^8.6.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   },
   "author": "Raphael Terrier @R4ph-t",
   "license": "MIT",
